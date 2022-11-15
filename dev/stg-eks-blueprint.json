@@ -5,7 +5,7 @@
         "variables" : {
             "region" : "us-west-2",
             "cluster_version" : "1.23",
-            "gitops_repo_url": "git@github.com:Cloudhedge/od-eks-blueprints.git",
+            "gitops_repo_url": "git@github.com:vkothawade-ch/od-eks-blueprints.git",
             "ssh_key_secret_name": "github-ssh-key"
         }
     } 
