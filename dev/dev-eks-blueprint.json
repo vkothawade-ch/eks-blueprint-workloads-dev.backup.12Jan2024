@@ -1,5 +1,5 @@
 {
-    "name": "eks-dev-test-01",
+    "name": "eks-dev-test-02",
     "env": "dev",
     "spec": {
         "variables" : {
