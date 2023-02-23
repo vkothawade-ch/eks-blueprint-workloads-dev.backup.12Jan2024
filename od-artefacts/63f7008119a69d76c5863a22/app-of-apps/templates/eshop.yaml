@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    path: od-artefacts/63f7008119a69d76c5863a22/appBlueprints/eshop/v0
+    path: od-artefacts/63f7008119a69d76c5863a22/appBlueprints/eshop/v1
   syncPolicy:
     automated:
       prune: true
