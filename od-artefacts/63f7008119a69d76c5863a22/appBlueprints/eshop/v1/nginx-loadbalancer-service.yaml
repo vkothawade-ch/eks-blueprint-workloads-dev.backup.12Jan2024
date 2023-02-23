@@ -6,11 +6,11 @@ metadata:
   labels:
     name: nginx
   annotations:
-    omnideqname: eshop(app)->eshop(blueprint)->nginx(dep)->nginx(service)-loadbalancer(service-type)-service
+    omnideqname: eshop(app)->eshop(blueprint)->nginx-hello-world(dep)->nginx(service)-loadbalancer(service-type)-service
 spec:
   type: LoadBalancer
   selector:
-    app: nginx
+    app: nginx-hello-world
   ports:
     - protocol: TCP
       port: 80
